@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Prompt;
+    src: url(Prompt-Regular.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.singkat {
+    margin-top: 120px;
+}
+
+
+.navbar-brand {
+    font-family: Prompt;
+    font-weight: 400;
+}
+
+.navbar-brand h4 {
+    margin-top: 5px;
+}
+
+
+.singkat h6 {
+    margin-top: -10px;
+    opacity: 0.5;
+}
+
+h6 span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.singkat hr {
+    width: 200px;
+    border: 2px solid #90e0ef;
+}
+
+.singkat .arya {
+    position: relative;
+    left: 250px;
+}
+
+.tombol {
+    background-color: #90e0ef;
+    border: 2px solid #90e0ef;
+    color: white;
+    transition: 0.3s;
+    width: 250px;
+}
+
+.tombol:hover {
+    background-color: #fff;
+    border: 2px solid #90e0ef;
+    color: #90e0ef;
+}
+
+/* Portfolio */
+#gambar img {
+    transition: 0.3s;
+}
+
+#gambar img:hover {
+    transition: 0.3s;
+    scale: 105%;
+}
+
+/* Blog */
+
+.img-thumbnail {
+    transition: 0.3s;
+}
+
+.img-thumbnail:hover {
+    scale: 105%;
+}
